@@ -223,17 +223,17 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers], 0)
 The multi-page Power BI dashboard utilizes a professional corporate theme with responsive page navigation, interactive tooltips, and consistent styling to enhance readability.
 
 ```carousel
-![Dashboard Home](images/dashboard_home.jpg)
+![Dashboard Home](images/dashboard_home.png)
 <!-- slide -->
-![Executive Summary](images/executive_summary.jpg)
+![Executive Summary](images/executive_summary.png)
 <!-- slide -->
-![Sales Analysis](images/sales_analysis.jpg)
+![Sales Analysis](images/sales_analysis.png)
 <!-- slide -->
-![Customer Analysis](images/customer_analysis.jpg)
+![Customer Analysis](images/customer_analysis.png)
 <!-- slide -->
-![Product & Profitability](images/product_profitability.jpg)
+![Product & Profitability](images/product_profitability.png)
 <!-- slide -->
-![Executive Insights](images/executive_insights.jpg)
+![Executive Insights](images/executive_insights.png)
 ```
 
 ### Dashboard Page Breakdown:
@@ -320,7 +320,7 @@ Follow these steps to replicate the data environment:
    * Open Jupyter: `jupyter notebook`
    * Execute all cells in `notebooks/01_data_understanding.ipynb` to regenerate the clean dataset.
 4. Open the Power BI dashboard:
-   * Launch Power BI Desktop and open `dashboard/Retail_Sales_Dashboard.pbix` (if available, otherwise connect Power BI to the generated CSV: [retail_cleaned.csv](file:///C:/Users/devud/Downloads/Reail-Sales-Analytics/data/cleaned/retail_cleaned.csv)).
+   * Launch Power BI Desktop and open `RETAIL-SALES-ANALYTICS.pbix` (if available, otherwise connect Power BI to the generated CSV: [retail_cleaned.csv](file:///C:/Users/devud/Downloads/Reail-Sales-Analytics/data/cleaned/retail_cleaned.csv)).
 
 ---
 
@@ -333,21 +333,21 @@ Below is the repository structure:
 ├── .gitignore                      # Git exclusion rules
 ├── README.md                       # Repository documentation
 ├── requirements.txt                # Python package list
-├── dashboard/                      # Power BI Dashboard folder
-│   └── Retail_Sales_Dashboard.pbix # Interactive Power BI source file
+├── Devika_Modern_Teal_Theme.json   # Power BI custom theme configuration
+├── RETAIL-SALES-ANALYTICS.pbix     # Interactive Power BI source file
 ├── data/                           # Data storage folder
 │   ├── raw/
 │   │   └── Sample - Superstore.csv # Original Superstore raw data
 │   └── cleaned/
 │       └── retail_cleaned.csv      # Processed data output from Python
 ├── images/                         # Dashboard screenshots & banners
-│   ├── project_banner.jpg
-│   ├── dashboard_home.jpg
-│   ├── executive_summary.jpg
-│   ├── sales_analysis.jpg
-│   ├── customer_analysis.jpg
-│   ├── product_profitability.jpg
-│   └── executive_insights.jpg
+│   ├── project_banner.jpg          # Project banner image
+│   ├── dashboard_home.png          # Dashboard Home screenshot
+│   ├── executive_summary.png       # Executive Summary screenshot
+│   ├── sales_analysis.png          # Sales Analysis screenshot
+│   ├── customer_analysis.png       # Customer Analysis screenshot
+│   ├── product_profitability.png   # Product & Profitability screenshot
+│   └── executive_insights.png      # Executive Insights screenshot
 ├── notebooks/                      # Data engineering notebooks
 │   └── 01_data_understanding.ipynb # ETL & Data cleaning notebook
 └── sql/                            # Database script repository

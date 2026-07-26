@@ -1,0 +1,44 @@
+{
+  "name": "Devika Modern Analytics",
+  "dataColors": [
+    "#0F766E",
+    "#14B8A6",
+    "#F59E0B",
+    "#DC2626",
+    "#4B5563",
+    "#6B7280",
+    "#10B981",
+    "#0EA5E9"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#374151",
+  "tableAccent": "#0F766E",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "color": { "solid": { "color": "#374151" } }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E5E7EB" } }
+          }
+        ]
+      }
+    }
+  }
+}
