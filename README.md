@@ -368,5 +368,5 @@ To scale this dashboard into an enterprise-level predictive intelligence hub, th
 ---
 
 <p align="center">
-  Made with ❤️ Devika. Licensed under the MIT License.
+  Made with ❤️ by Devika. Licensed under the MIT License.
 </p>
