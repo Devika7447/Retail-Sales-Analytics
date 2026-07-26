@@ -368,5 +368,5 @@ To scale this dashboard into an enterprise-level predictive intelligence hub, th
 ---
 
 <p align="center">
-  Made with ❤️ by the Data Analytics Architect Team. Licensed under the MIT License.
+  Made with ❤️ Devika. Licensed under the MIT License.
 </p>
